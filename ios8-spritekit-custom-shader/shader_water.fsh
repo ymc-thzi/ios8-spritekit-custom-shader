@@ -19,5 +19,5 @@ void main( void )
     c = 1.55-sqrt(c);
     vec3 colour = vec3(pow(abs(c), 15.0));
     
-    gl_FragColor = vec4(clamp(colour + vec3(0.0, 0.17, 0.3), 0.0, .5), 0.2);
+    gl_FragColor = vec4(clamp(colour + vec3(0.0, 0.17, 0.3), 0.0, .5), 0.3);
 }
