@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		272115B919C7340F002B507C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 272115B819C7340F002B507C /* main.m */; };
+		272115BC19C7340F002B507C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 272115BB19C7340F002B507C /* AppDelegate.m */; };
+		272115BF19C7340F002B507C /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 272115BE19C7340F002B507C /* GameScene.m */; };
+		272115C119C7340F002B507C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 272115C019C7340F002B507C /* GameScene.sks */; };
+		272115C419C7340F002B507C /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272115C319C7340F002B507C /* GameViewController.m */; };
+		272115C719C7340F002B507C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272115C519C7340F002B507C /* Main.storyboard */; };
+		272115C919C7340F002B507C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272115C819C7340F002B507C /* Images.xcassets */; };
+		272115D819C7340F002B507C /* ios8_spritekit_custom_shaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 272115D719C7340F002B507C /* ios8_spritekit_custom_shaderTests.m */; };
+		272115E219C734A8002B507C /* shader_water.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 272115E119C734A8002B507C /* shader_water.fsh */; };
+		272115E419C735DC002B507C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 272115E319C735DC002B507C /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		272115D219C7340F002B507C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 272115AB19C7340F002B507C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 272115B219C7340F002B507C;
+			remoteInfo = "ios8-spritekit-custom-shader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		272115B319C7340F002B507C /* ios8-spritekit-custom-shader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios8-spritekit-custom-shader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		272115B719C7340F002B507C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		272115B819C7340F002B507C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		272115BA19C7340F002B507C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		272115BB19C7340F002B507C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		272115BD19C7340F002B507C /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		272115BE19C7340F002B507C /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		272115C019C7340F002B507C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		272115C219C7340F002B507C /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		272115C319C7340F002B507C /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		272115C619C7340F002B507C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		272115C819C7340F002B507C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		272115D119C7340F002B507C /* ios8-spritekit-custom-shaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios8-spritekit-custom-shaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		272115D619C7340F002B507C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		272115D719C7340F002B507C /* ios8_spritekit_custom_shaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios8_spritekit_custom_shaderTests.m; sourceTree = "<group>"; };
+		272115E119C734A8002B507C /* shader_water.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader_water.fsh; sourceTree = "<group>"; };
+		272115E319C735DC002B507C /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		272115B019C7340F002B507C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272115CE19C7340F002B507C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		272115AA19C7340F002B507C = {
+			isa = PBXGroup;
+			children = (
+				272115B519C7340F002B507C /* ios8-spritekit-custom-shader */,
+				272115D419C7340F002B507C /* ios8-spritekit-custom-shaderTests */,
+				272115B419C7340F002B507C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		272115B419C7340F002B507C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				272115B319C7340F002B507C /* ios8-spritekit-custom-shader.app */,
+				272115D119C7340F002B507C /* ios8-spritekit-custom-shaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		272115B519C7340F002B507C /* ios8-spritekit-custom-shader */ = {
+			isa = PBXGroup;
+			children = (
+				272115BD19C7340F002B507C /* GameScene.h */,
+				272115BE19C7340F002B507C /* GameScene.m */,
+				272115E119C734A8002B507C /* shader_water.fsh */,
+				272115C819C7340F002B507C /* Images.xcassets */,
+				272115B619C7340F002B507C /* Supporting Files */,
+			);
+			path = "ios8-spritekit-custom-shader";
+			sourceTree = "<group>";
+		};
+		272115B619C7340F002B507C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				272115C319C7340F002B507C /* GameViewController.m */,
+				272115C219C7340F002B507C /* GameViewController.h */,
+				272115C019C7340F002B507C /* GameScene.sks */,
+				272115BB19C7340F002B507C /* AppDelegate.m */,
+				272115BA19C7340F002B507C /* AppDelegate.h */,
+				272115C519C7340F002B507C /* Main.storyboard */,
+				272115E319C735DC002B507C /* LaunchScreen.xib */,
+				272115B719C7340F002B507C /* Info.plist */,
+				272115B819C7340F002B507C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		272115D419C7340F002B507C /* ios8-spritekit-custom-shaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				272115D719C7340F002B507C /* ios8_spritekit_custom_shaderTests.m */,
+				272115D519C7340F002B507C /* Supporting Files */,
+			);
+			path = "ios8-spritekit-custom-shaderTests";
+			sourceTree = "<group>";
+		};
+		272115D519C7340F002B507C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				272115D619C7340F002B507C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		272115B219C7340F002B507C /* ios8-spritekit-custom-shader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272115DB19C7340F002B507C /* Build configuration list for PBXNativeTarget "ios8-spritekit-custom-shader" */;
+			buildPhases = (
+				272115AF19C7340F002B507C /* Sources */,
+				272115B019C7340F002B507C /* Frameworks */,
+				272115B119C7340F002B507C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios8-spritekit-custom-shader";
+			productName = "ios8-spritekit-custom-shader";
+			productReference = 272115B319C7340F002B507C /* ios8-spritekit-custom-shader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		272115D019C7340F002B507C /* ios8-spritekit-custom-shaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272115DE19C7340F002B507C /* Build configuration list for PBXNativeTarget "ios8-spritekit-custom-shaderTests" */;
+			buildPhases = (
+				272115CD19C7340F002B507C /* Sources */,
+				272115CE19C7340F002B507C /* Frameworks */,
+				272115CF19C7340F002B507C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				272115D319C7340F002B507C /* PBXTargetDependency */,
+			);
+			name = "ios8-spritekit-custom-shaderTests";
+			productName = "ios8-spritekit-custom-shaderTests";
+			productReference = 272115D119C7340F002B507C /* ios8-spritekit-custom-shaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		272115AB19C7340F002B507C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "ymc-thzi";
+				TargetAttributes = {
+					272115B219C7340F002B507C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					272115D019C7340F002B507C = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 272115B219C7340F002B507C;
+					};
+				};
+			};
+			buildConfigurationList = 272115AE19C7340F002B507C /* Build configuration list for PBXProject "ios8-spritekit-custom-shader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 272115AA19C7340F002B507C;
+			productRefGroup = 272115B419C7340F002B507C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				272115B219C7340F002B507C /* ios8-spritekit-custom-shader */,
+				272115D019C7340F002B507C /* ios8-spritekit-custom-shaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		272115B119C7340F002B507C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272115C919C7340F002B507C /* Images.xcassets in Resources */,
+				272115C119C7340F002B507C /* GameScene.sks in Resources */,
+				272115C719C7340F002B507C /* Main.storyboard in Resources */,
+				272115E219C734A8002B507C /* shader_water.fsh in Resources */,
+				272115E419C735DC002B507C /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272115CF19C7340F002B507C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		272115AF19C7340F002B507C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272115C419C7340F002B507C /* GameViewController.m in Sources */,
+				272115BC19C7340F002B507C /* AppDelegate.m in Sources */,
+				272115BF19C7340F002B507C /* GameScene.m in Sources */,
+				272115B919C7340F002B507C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272115CD19C7340F002B507C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272115D819C7340F002B507C /* ios8_spritekit_custom_shaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		272115D319C7340F002B507C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 272115B219C7340F002B507C /* ios8-spritekit-custom-shader */;
+			targetProxy = 272115D219C7340F002B507C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		272115C519C7340F002B507C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				272115C619C7340F002B507C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		272115D919C7340F002B507C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		272115DA19C7340F002B507C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		272115DC19C7340F002B507C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios8-spritekit-custom-shader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		272115DD19C7340F002B507C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios8-spritekit-custom-shader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		272115DF19C7340F002B507C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ios8-spritekit-custom-shaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios8-spritekit-custom-shader.app/ios8-spritekit-custom-shader";
+			};
+			name = Debug;
+		};
+		272115E019C7340F002B507C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ios8-spritekit-custom-shaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios8-spritekit-custom-shader.app/ios8-spritekit-custom-shader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		272115AE19C7340F002B507C /* Build configuration list for PBXProject "ios8-spritekit-custom-shader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272115D919C7340F002B507C /* Debug */,
+				272115DA19C7340F002B507C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		272115DB19C7340F002B507C /* Build configuration list for PBXNativeTarget "ios8-spritekit-custom-shader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272115DC19C7340F002B507C /* Debug */,
+				272115DD19C7340F002B507C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		272115DE19C7340F002B507C /* Build configuration list for PBXNativeTarget "ios8-spritekit-custom-shaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272115DF19C7340F002B507C /* Debug */,
+				272115E019C7340F002B507C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 272115AB19C7340F002B507C /* Project object */;
+}
