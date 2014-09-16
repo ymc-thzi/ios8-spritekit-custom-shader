@@ -15,8 +15,9 @@
 		272115C719C7340F002B507C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272115C519C7340F002B507C /* Main.storyboard */; };
 		272115C919C7340F002B507C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272115C819C7340F002B507C /* Images.xcassets */; };
 		272115D819C7340F002B507C /* ios8_spritekit_custom_shaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 272115D719C7340F002B507C /* ios8_spritekit_custom_shaderTests.m */; };
-		272115E219C734A8002B507C /* shader_water.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 272115E119C734A8002B507C /* shader_water.fsh */; };
+		272115E219C734A8002B507C /* shader_water_movement.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 272115E119C734A8002B507C /* shader_water_movement.fsh */; };
 		272115E419C735DC002B507C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 272115E319C735DC002B507C /* LaunchScreen.xib */; };
+		277750DD19C8869F00014B91 /* shader_water_reflection.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 277750DB19C8869F00014B91 /* shader_water_reflection.fsh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +46,9 @@
 		272115D119C7340F002B507C /* ios8-spritekit-custom-shaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios8-spritekit-custom-shaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		272115D619C7340F002B507C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		272115D719C7340F002B507C /* ios8_spritekit_custom_shaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios8_spritekit_custom_shaderTests.m; sourceTree = "<group>"; };
-		272115E119C734A8002B507C /* shader_water.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader_water.fsh; sourceTree = "<group>"; };
+		272115E119C734A8002B507C /* shader_water_movement.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader_water_movement.fsh; sourceTree = "<group>"; };
 		272115E319C735DC002B507C /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		277750DB19C8869F00014B91 /* shader_water_reflection.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader_water_reflection.fsh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +92,8 @@
 			children = (
 				272115BD19C7340F002B507C /* GameScene.h */,
 				272115BE19C7340F002B507C /* GameScene.m */,
-				272115E119C734A8002B507C /* shader_water.fsh */,
+				272115E119C734A8002B507C /* shader_water_movement.fsh */,
+				277750DB19C8869F00014B91 /* shader_water_reflection.fsh */,
 				272115C819C7340F002B507C /* Images.xcassets */,
 				272115B619C7340F002B507C /* Supporting Files */,
 			);
@@ -212,9 +215,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				272115C919C7340F002B507C /* Images.xcassets in Resources */,
+				277750DD19C8869F00014B91 /* shader_water_reflection.fsh in Resources */,
 				272115C119C7340F002B507C /* GameScene.sks in Resources */,
 				272115C719C7340F002B507C /* Main.storyboard in Resources */,
-				272115E219C734A8002B507C /* shader_water.fsh in Resources */,
+				272115E219C734A8002B507C /* shader_water_movement.fsh in Resources */,
 				272115E419C735DC002B507C /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
