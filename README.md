@@ -10,4 +10,4 @@ Read the full blogpost / tutorial on:
 http://www.ymc.ch/en/making-a-pixel-shader-for-ios8-with-sprite-kit
 
 
-![Valid XHTML] (http://www.ymc.ch/wp-content/uploads/2014/09/pixel-shader-demo.png)
+![Valid XHTML] (http://www.ymc.ch/wp-content/uploads/2014/09/pixel-shader-demo1.png)
